@@ -196,7 +196,7 @@ Key features include:
 
 The target variable, **quality**, is binary and represents whether an item meets quality standards.
 
-![Feature Overview](assets/lr_feature_importance.png)
+![Feature Importance](assets/images/lr_feature_importance.png)
 
 The dataset captures variation across these attributes, providing measurable signals that can be used to distinguish between high- and low-quality items. Features such as sweetness, ripeness, weight, and acidity exhibit meaningful variation across observations, supporting their use in classification.
 
