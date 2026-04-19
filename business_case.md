@@ -43,7 +43,6 @@ The analysis followed three steps: data preparation, model development across mu
 The goal was to test whether a model-driven signal could improve the speed and consistency of quality assessment. Detailed methodology and technical outputs are provided in the Appendix.
 
 
-
 ## Model Evaluation
 
 Multiple classification models were evaluated based on accuracy and their ability to minimize misclassification.
@@ -55,7 +54,6 @@ Multiple classification models were evaluated based on accuracy and their abilit
 ### Model Selection
 KNN was selected as the preferred model due to its superior accuracy and consistency in identifying both high- and low-quality items.
 
-### Business Implication
 By reducing misclassification, the model improves the reliability of quality signals used in sorting and inventory decisions, lowering the likelihood of low-value products moving through the supply chain unnecessarily.
 
 Detailed model outputs and confusion matrices are provided in the Appendix.
@@ -77,7 +75,6 @@ Detailed model outputs and confusion matrices are provided in the Appendix.
   A consistent, data-driven classification approach reduces reliance on manual inspection and provides a more scalable and repeatable way to assess product quality across high-volume environments.
 
 
-
 ## Business Impact
 At scale, improved classification accuracy reduces the cost of misclassification, a key driver of waste and inefficiency in perishable supply chains.
 
@@ -92,7 +89,6 @@ To estimate impact, a simplified cost model was used with representative assumpt
 Under these assumptions, estimated losses decrease from approximately **$390K–$410K per day to ~$77K per day**, representing over **$120M in potential annual savings**.
 
 These estimates are directional and intended to illustrate the magnitude of impact. Detailed assumptions and calculations are provided in the Appendix.
-
 
 
 ## Operational Recommendation
@@ -131,7 +127,6 @@ Based on the analysis, implementing a model-driven approach to quality classific
 
 - **Data quality and consistency**  
   Maintain reliable input data to ensure ongoing model performance.
-
 
 
 
@@ -217,7 +212,9 @@ Summary statistics indicate that feature distributions are consistent and do not
 ### Visual Snapshot & Feature Insights  
 
 #### Logistic Regression Feature Importance  
-<img src="assets/images/lr_feature_importance.png" width="600">
+<p align="center">
+  <img src="assets/images/lr_feature_importance.png" width="450">
+</p>
 
 The logistic regression model provides insight into how each feature influences the likelihood of a banana being classified as *Good*.  
 
@@ -294,7 +291,9 @@ Model performance was evaluated using accuracy, sensitivity, specificity, and co
 
 ### Logistic Regression  
 
-<img src="assets/images/lr_confusion_matrix.png" width="600">
+<p align="center">
+  <img src="assets/images/lr_confusion_matrix.png" width="400">
+</p>
 
 Logistic Regression achieved an accuracy of **87.24%**, with balanced sensitivity (**0.8747**) and specificity (**0.8702**), indicating consistent but moderate performance across both classes.  
 
@@ -304,7 +303,10 @@ This is expected, as Logistic Regression assumes a linear relationship between f
 
 ### K-Nearest Neighbors (KNN)  
 
-<img src="assets/images/knn_confusion_matrix.png" width="600">
+<p align="center">
+  <img src="assets/images/knn_confusion_matrix.png" width="400">
+</p>
+
 
 KNN achieved the highest performance with an accuracy of **97.94%**, along with very high sensitivity (**0.9850**) and specificity (**0.9738**).  
 
@@ -314,9 +316,13 @@ KNN performs particularly well in this context because banana quality appears to
 
 ### Decision Tree  
 
-<img src="assets/images/dt_confusion_matrix.png" width="600">
+<p align="center">
+  <img src="assets/images/dt_confusion_matrix.png" width="400">
+</p>
 
-<img src="assets/images/dt_tree_plot-1.png" width="600">
+<p align="center">
+  <img src="assets/images/dt_tree_plot-1.png" width="550">
+</p>
 
 The Decision Tree model achieved an accuracy of **88.56%**, with sensitivity (**0.8972**) and specificity (**0.8739**), slightly outperforming Logistic Regression but still below KNN.  
 
