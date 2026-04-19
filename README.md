@@ -50,16 +50,19 @@ The goal is to **improve sorting decisions early** and reduce costly misclassifi
 
 ## 📁 Repo Structure
 
+## 📁 Repo Structure
+
 perishable-supply-chain-ml/
 ├── business_case.md
 ├── code/
-│ ├── banana_prediction_github_code.Rmd
-│ └── banana_prediction_github_code.html
+│   ├── banana_prediction_github_code.Rmd
+│   └── banana_prediction_github_code.html
 ├── data/
-│ └── banana_quality.csv
+│   └── banana_quality.csv
 ├── assets/
-│ ├── images/
-│ └── styles.css
+│   ├── images/
+│   └── styles.css
+
 ---
 
 ## 🧭 Where to Look
