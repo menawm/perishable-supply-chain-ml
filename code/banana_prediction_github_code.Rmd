@@ -10,6 +10,8 @@ output:
 
 This project develops machine learning models to classify banana quality in supermarket supply chains. The goal is to reduce operational losses by identifying low-quality bananas early using features such as sweetness, acidity, and ripeness. The code covers data preparation, model training, and model evaluation.
 
+The full code is available below. The rendered report, models, and analysis can be viewed here: https://menawm.github.io/perishable-supply-chain-ml/
+
 # **Step 1: Load and Clean the Data**
 
 Load dataset, standardize target column (quality), and convert to factor for classification
