@@ -1,5 +1,7 @@
 ## Appendix
 
+This appendix provides the detailed technical foundation supporting the business case. It includes data structure and preparation steps, model development methodology, evaluation metrics, and cost model assumptions. The content is intended for readers who want a deeper understanding of how the analysis was conducted and how the results were derived.
+
 ### A. Data Overview
 ### B. Data Preparation
 ### C. Model Development
