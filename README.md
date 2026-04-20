@@ -1,6 +1,7 @@
 # Improving Perishable Supply Chain Efficiency Through Predictive Quality Modeling
 
-🔗 **Full Business Case:** can be found here: https://github.com/menawm/perishable-supply-chain-ml/blob/main/business_case.md   
+🔗 **Full Business Case:** can be found here: https://github.com/menawm/perishable-supply-chain-ml/blob/main/business_case.md 
+🔗 **Technical Analysis:** Technical details and methodology can be found in the https://github.com/menawm/perishable-supply-chain-ml/blob/main/Appendix.md
 
 ---
 ## Business Impact
