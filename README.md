@@ -50,28 +50,12 @@ The goal is to **improve sorting decisions early** and reduce costly misclassifi
 
 ---
 
-## 📁 Repo Structure
-
-## 📁 Repo Structure
-
-perishable-supply-chain-ml/
-├── business_case.md
-├── code/
-│   ├── banana_prediction_github_code.Rmd
-│   └── banana_prediction_github_code.html
-├── data/
-│   └── banana_quality.csv
-├── assets/
-│   ├── images/
-│   └── styles.css
-
----
-
 ## 🧭 Where to Look
 
-- Start with **business_case.md** for the full story  
-- Open **banana_prediction_github_code.html** or appendex of business_case.md to see results  
-- Review **banana_prediction_github_code.Rmd** for methodology  
+- Start with **business_case.md** for the full story
+- **Appendix.md** for the technical details
+- Open **banana_prediction_github_code.html**   
+- Review **banana_prediction_github_code.Rmd** for the full analysis code in RStudio
 
 ---
 
@@ -80,7 +64,8 @@ perishable-supply-chain-ml/
 Small improvements in classification accuracy create **massive cost savings at scale** in high-volume supply chains.
 
 This project shows how ML can:
-- Reduce waste  
+- Reduce waste
+- Reduce operational costs  
 - Improve inventory decisions  
 - Replace inconsistent manual inspection  
 
