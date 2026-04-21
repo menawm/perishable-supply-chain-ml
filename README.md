@@ -1,8 +1,8 @@
 # Improving Perishable Supply Chain Efficiency Through Predictive Quality Modeling
 
-🔗 **Full Business Case:** can be found here: https://github.com/menawm/perishable-supply-chain-ml/blob/main/business_case.md 
+ **Full Business Case:** can be found here: https://github.com/menawm/perishable-supply-chain-ml/blob/main/business_case.md 
 
-🔗 **Technical Analysis:** Technical details and methodology can be found in the https://github.com/menawm/perishable-supply-chain-ml/blob/main/Appendix.md
+ **Technical Analysis:** Technical details and methodology can be found in the https://github.com/menawm/perishable-supply-chain-ml/blob/main/Appendix.md
 
 ---
 ## Business Impact
@@ -44,13 +44,13 @@ The goal is to **improve sorting decisions early** and reduce costly misclassifi
 | Decision Tree | 88.6% | ~$392K |
 | **KNN** | **97.9%** | **~$78K** |
 
-👉 KNN dramatically reduces:
+ KNN dramatically reduces:
 - Shipping low-quality product  
 - Discarding good inventory  
 
 ---
 
-## 🧭 Where to Look
+## Where to Look
 
 - Start with **business_case.md** for the full story
 - **Appendix.md** for the technical details
